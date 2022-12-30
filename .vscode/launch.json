@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.blandygbc.loja.App",
+            "projectName": "desiign_patterns_alura_919d0adf"
+        },
+        {
+            "type": "java",
+            "name": "Design patterns Alura",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.blandygbc.loja.App",
+            "projectName": "design-patterns-alura",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

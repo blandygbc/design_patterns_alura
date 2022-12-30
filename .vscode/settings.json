@@ -1,0 +1,11 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.project.sourcePaths": [
+        "loja/src/"
+    ],
+    "java.project.outputPath": "loja/bin",
+    "java.project.referencedLibraries": [
+        "loja/lib/**/*.jar"
+    ]
+}
