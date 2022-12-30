@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StrategyMain",
+            "request": "launch",
+            "mainClass": "com.blandygbc.loja.StrategyMain",
+            "projectName": "desiign_patterns_alura_919d0adf"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChainOfResponsabilityMain",
+            "request": "launch",
+            "mainClass": "com.blandygbc.loja.ChainOfResponsabilityMain",
+            "projectName": "desiign_patterns_alura_919d0adf"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "com.blandygbc.loja.App",
