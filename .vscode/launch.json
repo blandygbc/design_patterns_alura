@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CommandMain",
+            "request": "launch",
+            "mainClass": "com.blandygbc.loja.CommandMain",
+            "projectName": "design_patterns_alura_273560fa"
+        },
+        {
+            "type": "java",
             "name": "ChainOfResponsabilityMain",
             "request": "launch",
             "mainClass": "com.blandygbc.loja.ChainOfResponsabilityMain",
