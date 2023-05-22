@@ -8,6 +8,7 @@ import com.blandygbc.loja.pedido.GeraPedido;
 import com.blandygbc.loja.pedido.GeraPedidoHandler;
 import com.blandygbc.loja.pedido.acao.AcaoAposGerarPedido;
 import com.blandygbc.loja.pedido.acao.EnviarEmailPedido;
+import com.blandygbc.loja.pedido.acao.LogDePedido;
 import com.blandygbc.loja.pedido.acao.SalvarPedidoNoBancoDeDados;
 
 public class CommandMain {
@@ -16,7 +17,10 @@ public class CommandMain {
         BigDecimal valorOrcamento = new BigDecimal("300");
         int quantidadeDeItens = Integer.parseInt("2");
         GeraPedido geraPedido = new GeraPedido(cliente, valorOrcamento, quantidadeDeItens);
-        List<AcaoAposGerarPedido> acoes = Arrays.asList(new SalvarPedidoNoBancoDeDados(), new EnviarEmailPedido());
+        List<AcaoAposGerarPedido> acoes = Arrays.asList(
+                new SalvarPedidoNoBancoDeDados(),
+                new EnviarEmailPedido(),
+                new LogDePedido());
         GeraPedidoHandler geraPedidoHandler = new GeraPedidoHandler(acoes);
         geraPedidoHandler.execute(geraPedido);
     }
