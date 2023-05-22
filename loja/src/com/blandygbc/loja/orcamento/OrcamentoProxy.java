@@ -12,6 +12,10 @@ public class OrcamentoProxy implements Orcavel {
 
     @Override
     public BigDecimal getValor() {
+        // TODO: Poderia implementar um tempo de cache armazenando a data de atribuição
+        // e um valor com o tempo de vida
+        // TODO: Realizar uma checagem se o tempo de chace foi atingido e renovar o
+        // cache
         if (this.valor == null) {
             this.valor = orcamento.getValor();
         }
