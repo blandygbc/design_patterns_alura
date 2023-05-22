@@ -1,6 +1,5 @@
 package com.blandygbc.loja;
 
-import java.math.BigDecimal;
 import java.util.logging.Logger;
 
 import com.blandygbc.loja.http.ApiHttpClient;
@@ -12,7 +11,7 @@ public class AdapterMain {
 
     public static void main(String[] args) {
         logger.info("Design Pattern - Adapter:\n");
-        Orcamento orcamento = new Orcamento(BigDecimal.TEN, 1);
+        Orcamento orcamento = new Orcamento();
         orcamento.aprovar();
         orcamento.finalizar();
 

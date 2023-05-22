@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CompositeMain",
+            "request": "launch",
+            "mainClass": "com.blandygbc.loja.CompositeMain",
+            "projectName": "design_patterns_alura_273560fa"
+        },
+        {
+            "type": "java",
             "name": "DecoratorMain",
             "request": "launch",
             "mainClass": "com.blandygbc.loja.DecoratorMain",
