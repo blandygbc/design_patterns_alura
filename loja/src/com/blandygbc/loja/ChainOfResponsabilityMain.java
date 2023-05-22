@@ -19,7 +19,7 @@ public class ChainOfResponsabilityMain {
         logger.info("Calculando o desconto para orçamento de 200 com 6 itens.\n");
         String resultChOfRes1 = String.valueOf(calculadoraDeDescontos.calcular(orcamentoChOfRes1));
         String resultChOfRes2 = String.valueOf(calculadoraDeDescontos.calcular(orcamentoChOfRes2));
-        logger.log(Level.INFO, "O resultado do Chain of Responsability calcular desconto de 5 itens: {0} \n",
+        logger.log(Level.INFO, "O resultado do Chain of Responsability calcular desconto de 6 itens: {0} \n",
                 resultChOfRes1);
         logger.log(Level.INFO, "O resultado do Chain of Responsability calcular desconto 1000 de valor: {0} \n",
                 resultChOfRes2);
