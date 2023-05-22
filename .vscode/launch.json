@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DecoratorMain",
+            "request": "launch",
+            "mainClass": "com.blandygbc.loja.DecoratorMain",
+            "projectName": "design_patterns_alura_273560fa"
+        },
+        {
+            "type": "java",
+            "name": "StrategyMain",
+            "request": "launch",
+            "mainClass": "com.blandygbc.loja.StrategyMain",
+            "projectName": "design_patterns_alura_273560fa"
+        },
+        {
+            "type": "java",
             "name": "CommandMain",
             "request": "launch",
             "mainClass": "com.blandygbc.loja.CommandMain",
